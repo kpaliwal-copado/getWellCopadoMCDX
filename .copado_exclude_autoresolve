@@ -1,2 +1,2 @@
-**/*.profile-meta.xml
-**/pages/*.page
+**/*.page-meta.xml
+**/*.page*
