@@ -155,12 +155,12 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <historyRetentionPolicy n1:nil="true" />
-    <label>KompalCustomObj1</label>
+    <label>KompalCustomObj3</label>
     <nameField>
         <label>KompalCustom Name</label>
-        <type>Text</type>
+        <type>Text kompal</type>
     </nameField>
-    <pluralLabel>KompalCustomObj1s</pluralLabel>
+    <pluralLabel>KompalCustomObj3s</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
