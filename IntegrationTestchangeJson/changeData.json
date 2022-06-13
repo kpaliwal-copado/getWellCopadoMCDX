@@ -1,0 +1,46 @@
+{
+  "changeTestDescList": [
+    {
+      "testDesc": "Simple commit operation on : CustomObject",
+      "Changes": [
+        {
+          "t": "CustomObject",
+          "n": "kompalCustomObj3__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObj3__c\",\"my-app/main/default/objects/KompalCustomObj1__c/kompalCustomObj3__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "Profile",
+          "n": "SAMProf2",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
+        }
+      ]
+    },
+    {
+      "testDesc": "Simple commit operation on : CustomObject",
+      "Changes": [
+        {
+          "t": "ApexClass",
+          "n": "kompalApex",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"my-app/main/default/classes/kompalApex.cls\",\"my-app/main/default/classes/kompalApex-meta.xml\"]}"
+        },
+        {
+          "t": "Profile",
+          "n": "SAMProf2",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
+        }
+      ]
+    }
+  ]
+}
