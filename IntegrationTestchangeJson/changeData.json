@@ -19,10 +19,11 @@
           "a": "Add",
           "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
-      ]
+      ],
+      "Operation": "Commit"
     },
     {
-      "testDesc": "Simple commit operation on : CustomObject",
+      "testDesc": "Trim operation on : ApexClass",
       "Changes": [
         {
           "t": "ApexClass",
@@ -40,7 +41,8 @@
           "a": "Add",
           "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
-      ]
+      ],
+      "Operation": "Trim"
     }
   ]
 }
