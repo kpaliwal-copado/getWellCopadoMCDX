@@ -32,14 +32,6 @@
           "c": "",
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"my-app/main/default/classes/kompalApex.cls\",\"my-app/main/default/classes/kompalApex-meta.xml\"]}"
-        },
-        {
-          "t": "Profile",
-          "n": "SAMProf2",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
