@@ -32,14 +32,6 @@
           "c": "",
           "a": "RetrieveOnly",
           "j": "{\"filePath\":[\"my-app/main/default/classes/ChangePasswordController.cls-meta.xml\",\"my-app/main/default/classes/kChangePasswordController.cls\"]}"
-        },
-         {
-          "t": "Profile",
-          "n": "Admin",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/Admin.profile-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
