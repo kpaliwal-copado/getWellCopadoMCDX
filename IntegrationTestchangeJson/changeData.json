@@ -9,7 +9,7 @@
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObj3__c\",\"my-app/main/default/objects/KompalCustomObj1__c/kompalCustomObj3__c.object-meta.xml\"]}"
+          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObj3__c\",\"my-app/main/default/objects/KompalCustomObj3__c/kompalCustomObj3__c.object-meta.xml\"]}"
         },
         {
           "t": "Profile",
