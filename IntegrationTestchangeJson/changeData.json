@@ -23,16 +23,32 @@
       "Operation": "COMMIT"
     },
     {
-      "testDesc": "Trim operation on : ApexClass",
+      "testDesc": "Simple commit operation on : Customfield, profile, customobject",
       "Changes": [
         {
-          "t": "ApexClass",
-          "n": "kompalApex",
+          "t": "CustomObject",
+          "n": "kompalCustomObject__c",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
-          "j": "{\"filePath\":[\"my-app/main/default/classes/ChangePasswordController.cls-meta.xml\",\"my-app/main/default/classes/kChangePasswordController.cls\"]}"
-        }
+          "a": "Add",
+         "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObject__c\",\"my-app/main/default/objects/kompalCustomObject__c/kompalCustomObject__c.object-meta.xml\"]}"
+        },
+        {
+          "t": "CustomField",
+          "n": "kompalCustomObject__c.KompalCustomFIeld1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObject__c/fields/KompalCustomFIeld1__c.field-meta.xml\"]}"
+        },
+        {
+          "t": "Profile",
+          "n": "kompalProfile",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"my-app/main/default/profiles/kompalProfile.profile-meta.xml\"]}"
+        },
       ],
       "Operation": "COMMIT"
     }
