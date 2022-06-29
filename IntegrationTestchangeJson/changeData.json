@@ -48,7 +48,7 @@
           "c": "",
           "a": "Add",
           "j": "{\"filePath\":[\"my-app/main/default/profiles/kompalProfile.profile-meta.xml\"]}"
-        },
+        }
       ],
       "Operation": "COMMIT"
     }
