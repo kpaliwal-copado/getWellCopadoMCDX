@@ -8,7 +8,7 @@
           "n": "kompalCustomObj3__c",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "RetrieveOnly",
+          "a": "Add",
           "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObj3__c\",\"my-app/main/default/objects/KompalCustomObj1__c/kompalCustomObj3__c.object-meta.xml\"]}"
         },
         {
