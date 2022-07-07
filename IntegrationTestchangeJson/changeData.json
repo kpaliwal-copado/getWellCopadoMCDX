@@ -1,56 +1,57 @@
 {
-  "changeTestDescList": [
+  "test_cases": [
     {
-      "testDesc": "Simple commit operation on : CustomObject",
-      "Changes": [
+      "description": "Simple commit operation on : CustomObject",
+      "changes": [
         {
           "t": "CustomObject",
-          "n": "kompalCustomObj3__c",
+          "n": "KompalCustomObj1__c",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObj3__c\",\"my-app/main/default/objects/KompalCustomObj3__c/kompalCustomObj3__c.object-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1__c\",\"force-app/main/default/objects/KompalCustomObj1__c/KompalCustomObj1__c.object-meta.xml\"]}"
         },
         {
           "t": "Profile",
-          "n": "SAMProf2",
+          "n": "Admin",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/SAMProf2.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
         }
       ],
       "Operation": "COMMIT"
     },
     {
-      "testDesc": "Simple commit operation on : Customfield, profile, customobject",
-      "Changes": [
+      "description": "Trim operation on : ApexClass",
+      "changes": [
         {
-          "t": "CustomObject",
-          "n": "kompalCustomObject__c",
+          "t": "ApexClass",
+          "n": "AppleWatch",
           "m": "force-app/main/default/",
           "c": "",
-          "a": "Add",
-         "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObject__c\",\"my-app/main/default/objects/kompalCustomObject__c/kompalCustomObject__c.object-meta.xml\"]}"
-        },
-        {
-          "t": "CustomField",
-          "n": "kompalCustomObject__c.KompalCustomFIeld1__c",
-          "m": "force-app/main/default/",
-          "c": "",
-          "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/objects/kompalCustomObject__c/fields/KompalCustomFIeld1__c.field-meta.xml\"]}"
+          "a": "RetrieveOnly",
+          "j": "{\"filePath\":[\"force-app/main/default/classes/AppleWatch.cls\",\"force-app/main/default/classes/AppleWatch-meta.xml\"]}"
         },
         {
           "t": "Profile",
-          "n": "kompalProfile",
+          "n": "Admin",
           "m": "force-app/main/default/",
           "c": "",
           "a": "Add",
-          "j": "{\"filePath\":[\"my-app/main/default/profiles/kompalProfile.profile-meta.xml\"]}"
+          "j": "{\"filePath\":[\"force-app/main/default/profiles/Admin.profile-meta.xml\"]}"
+        },
+        {
+          "t": "CustomObject",
+          "n": "KompalCustomObj1__c",
+          "m": "force-app/main/default/",
+          "c": "",
+          "a": "Add",
+          "j": "{\"filePath\":[\"force-app/main/default/objects/KompalCustomObj1/KompalCustomObj1__c.object-meta.xml\"]}"
         }
+        
       ],
-      "Operation": "COMMIT"
+      "Operation": "TRIM"
     }
   ]
 }
